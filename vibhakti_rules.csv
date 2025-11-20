@@ -1,0 +1,22 @@
+vibhakti_id,base,ending,output,notes
+1,ರಾಮ,ಗೆ,ರಾಮನಿಗೆ,Add ನಿ before ಗೆ
+2,ರಾಮ,ಅನ್ನು,ರಾಮನನ್ನು,Add ನ before ಅನ್ನು
+3,ರಾಮ,ಇಂದ,ರಾಮನಿಂದ,Add ನ before ಇಂದ
+4,ಮನೆ,ಗೆ,ಮನೆಗೆ,Direct attach
+5,ಮನೆ,ಅಲ್ಲಿ,ಮನೆಯಲ್ಲಿ,ಎ → ಏ change
+6,ಮನೆ,ದಿಂದ,ಮನೆಯಿಂದ,insert ಯ
+7,ಶಕ್ತಿ,ಅನ್ನು,ಶಕ್ತಿಯನ್ನು,ಇ → ಯಿ insertion
+8,ಶಕ್ತಿ,ಇಂದ,ಶಕ್ತಿಯಿಂದ,insert ಯ
+9,ರವಿ,ಗೆ,ರವಿಗೆ,Direct attach
+10,ರವಿ,ಇಂದ,ರವಿಯಿಂದ,Add ಯ before ಇಂದ
+11,ರವಿ,ಅನ್ನು,ರವಿಯನ್ನು,Add ಯ
+12,ಪುಸ್ತಕ,ದಲ್ಲಿ,ಪುಸ್ತಕದಲ್ಲಿ,Direct
+13,ಪುಸ್ತಕ,ಕ್ಕೆ,ಪುಸ್ತಕಕ್ಕೆ,K → kk change
+14,ಕಾಗೆ,ಗಳು,ಕಾಗೆಗಳು,pluralization
+15,ಕಾಲು,ಗಳ,ಕಾಲುಗಳು,pluralization
+16,ರಾಮ,ಓಡನೆ,ರಮಓಡನೆ,Special rule
+17,ದೇವ,ರನ್ನು,ದೇವರನ್ನು,add ರ್
+18,ದೇವ,ಯನ್ನು,ದೇವರನ್ನು,ಯ → ರ್ replace
+19,ನಗರ,ಕ್ಕೆ,ನಗರಕ್ಕೆ,Direct gemination
+20,ನಗರ,ಅಲ್ಲಿ,ನಗರದಲ್ಲಿ,→ ದಲ್ಲಿ transform
+from code.word_joiner import WordJoiner
